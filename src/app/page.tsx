@@ -32,7 +32,8 @@ export const blogDataset: BlogPost[] = [
     title: 'Engineering Context-Aware Agents with Vector Database Embeddings',
     description: 'Understand how embedding similarity indexes drive precision generation matching patterns inside dynamic client components.',
     content: 'Context mapping is highly dependent on high vector dimensionality calculations. Utilizing modern cosine-similarity workflows, localized database retrieval structures generate micro-targeted prompt foundations.',
-    coverImage: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=800&q=80',
+    // FIX: Updated to a stable AI/Neural network stock link
+    coverImage: 'https://images.unsplash.com/photo-1675557009875-436f09780264?auto=format&fit=crop&w=800&q=80',
     createdAt: new Date().toISOString(),
     author: 'Marcus Chen',
     authorAvatar: 'https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=150&q=80',
@@ -44,7 +45,8 @@ export const blogDataset: BlogPost[] = [
     title: 'Mastering Custom Tailwind Configurations for Enterprise Design Tokens',
     description: 'Scale up consistency. Build robust, high-performance style dictionaries directly mapping themes through extended CSS variable frameworks.',
     content: 'Design token scaling starts inside tailwind.config.js configurations. By setting semantic custom utility keys matching raw variable roots, updating design specifications becomes an atomic single-file execution workflow.',
-    coverImage: 'https://images.unsplash.com/photo-1541462608141-ad4979e408c9?auto=format&fit=crop&w=800&q=80',
+    // FIX: Updated to a stable clean coding workspace asset link
+    coverImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
     createdAt: new Date().toISOString(),
     author: 'Sarah Jenkins',
     authorAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80',
