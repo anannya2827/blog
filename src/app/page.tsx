@@ -27,15 +27,15 @@ export const blogDataset: BlogPost[] = [
     category: 'Coding',
     readTime: '7 min read'
   },
- // Find these exact items inside the blogDataset array in src/app/page.tsx:
+// Inside src/app/page.tsx, modify the 3rd and 4th entries in blogDataset:
 
   {
     id: '3',
     title: 'Engineering Context-Aware Agents with Vector Database Embeddings',
     description: 'Understand how embedding similarity indexes drive precision generation matching patterns inside dynamic client components.',
     content: 'Context mapping is highly dependent on high vector dimensionality calculations. Utilizing modern cosine-similarity workflows, localized database retrieval structures generate micro-targeted prompt foundations.',
-    // FIX: Swapped to a highly available, ultra-reliable AI network graphic URL
-    coverImage: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80',
+    coverImage: '', // Removed URL completely
+    useGradient: true, // Added flag for dynamic styling
     createdAt: new Date().toISOString(),
     author: 'Marcus Chen',
     authorAvatar: 'https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=150&q=80',
@@ -47,8 +47,8 @@ export const blogDataset: BlogPost[] = [
     title: 'Mastering Custom Tailwind Configurations for Enterprise Design Tokens',
     description: 'Scale up consistency. Build robust, high-performance style dictionaries directly mapping themes through extended CSS variable frameworks.',
     content: 'Design token scaling starts inside tailwind.config.js configurations. By setting semantic custom utility keys matching raw variable roots, updating design specifications becomes an atomic single-file execution workflow.',
-    // FIX: Swapped to a highly available, crystal-clear setup code display URL
-    coverImage: 'https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=800&q=80',
+    coverImage: '', // Removed URL completely
+    useGradient: true, // Added flag for dynamic styling
     createdAt: new Date().toISOString(),
     author: 'Sarah Jenkins',
     authorAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80',
