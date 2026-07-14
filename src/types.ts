@@ -9,4 +9,5 @@ export interface BlogPost {
   authorAvatar: string;
   category: string;
   readTime: string;
+  useGradient?: boolean; 
 }
