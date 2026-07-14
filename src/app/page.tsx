@@ -55,6 +55,7 @@ export const blogDataset: BlogPost[] = [
     category: 'Design',
     readTime: '5 min read'
   },
+  {
     id: '5',
     title: 'Optimizing Cumulative Layout Shift (CLS) in Multi-Framework Workflows',
     description: 'Keep your page components anchored securely. Code deep structural dynamic aspect ratio layouts that protect browser performance ranks.',
