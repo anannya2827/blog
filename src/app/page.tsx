@@ -27,16 +27,16 @@ export const blogDataset: BlogPost[] = [
     category: 'Coding',
     readTime: '7 min read'
   },
-  {
+ {
     id: '3',
     title: 'Engineering Context-Aware Agents with Vector Database Embeddings',
     description: 'Understand how embedding similarity indexes drive precision generation matching patterns inside dynamic client components.',
     content: 'Context mapping is highly dependent on high vector dimensionality calculations. Utilizing modern cosine-similarity workflows, localized database retrieval structures generate micro-targeted prompt foundations.',
-    // FIX: Updated to a stable AI/Neural network stock link
-    coverImage: 'https://images.unsplash.com/photo-1675557009875-436f09780264?auto=format&fit=crop&w=800&q=80',
+    // FIX: Using inline SVG to completely bypass network issues
+    coverImage: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%234c1d95"/><stop offset="100%" stop-color="%231e1b4b"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="900" fill="%23a78bfa">VECTOR EMBEDDINGS // AI</text></svg>',
     createdAt: new Date().toISOString(),
     author: 'Marcus Chen',
-    authorAvatar: 'https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=150&q=80',
+    authorAvatar: '',
     category: 'AI',
     readTime: '9 min read'
   },
@@ -45,15 +45,14 @@ export const blogDataset: BlogPost[] = [
     title: 'Mastering Custom Tailwind Configurations for Enterprise Design Tokens',
     description: 'Scale up consistency. Build robust, high-performance style dictionaries directly mapping themes through extended CSS variable frameworks.',
     content: 'Design token scaling starts inside tailwind.config.js configurations. By setting semantic custom utility keys matching raw variable roots, updating design specifications becomes an atomic single-file execution workflow.',
-    // FIX: Updated to a stable clean coding workspace asset link
-    coverImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
+    // FIX: Using inline SVG to completely bypass network issues
+    coverImage: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"><defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23065f46"/><stop offset="100%" stop-color="%23022c22"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g2)"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="900" fill="%2334d399">TAILWIND CONFIGS // DESIGN</text></svg>',
     createdAt: new Date().toISOString(),
     author: 'Sarah Jenkins',
-    authorAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80',
+    authorAvatar: '',
     category: 'Design',
     readTime: '5 min read'
   },
-  {
     id: '5',
     title: 'Optimizing Cumulative Layout Shift (CLS) in Multi-Framework Workflows',
     description: 'Keep your page components anchored securely. Code deep structural dynamic aspect ratio layouts that protect browser performance ranks.',
